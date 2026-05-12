@@ -164,7 +164,7 @@ python-learning-guide/
 
 ### Run Code Examples
 
-- Navigate to the code/ directory and run any Python file with the CMD: "python src/basics/variables.py"
+- Navigate to the src/ directory and run any Python file with the CMD: "python src/basics/variables.py"
 
 ### Interactive Jupyter Notebooks
 
