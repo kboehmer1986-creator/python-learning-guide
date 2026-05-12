@@ -126,6 +126,7 @@ python-learning-guide/
 │       └── ...
 
 │
+
 ├── quizzes/
 
 │   ├── basics_quiz.md
@@ -156,20 +157,20 @@ python-learning-guide/
 
 - PDF: Open "pdf/python_learning_guide.pdf" for a ready-to-read version.
 - Markdown: Edit or read the source in "markdown/python_learning_guide.md".
-- Code Examples: Run Python scripts in the "code/" directory.
-- Exercises: Try the exercises in "exercises/" and check solutions in "exercises/solutions/".
+- Code Examples: Run Python scripts in the "src/" directory.
+- Exercises: Try the exercises in "exercises/" and check solutions in "solutions/".
 - Quizzes: Test your knowledge with "quizzes/".
-- Interactive Modules: Open Jupyter Notebooks in "interactive/" ( requires JupyterLab ).
+- Interactive Modules: Open Jupyter Notebooks in "notebooks/" ( requires JupyterLab ).
 
 ### Run Code Examples
 
-- Navigate to the code/ directory and run any Python file with the CMD: "python code/basics/variables.py"
+- Navigate to the code/ directory and run any Python file with the CMD: "python src/basics/variables.py"
 
 ### Interactive Jupyter Notebooks
 
 - Install JupyterLab with the CMD: "pip install jupyterlab".
 - Launch JupyterLab with the CMD: "jupyter lab".
-- Open the notebooks in the "interactive/"  directory.
+- Open the notebooks in the "notebooks/"  directory.
 
 ## PDF Generation
 
