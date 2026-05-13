@@ -1,0 +1,28 @@
+{
+  "name": "Python Learning Guide",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.vscode-docker",
+        "redhat.vscode-yaml",
+        "tamasfe.even-better-toml"
+      ],
+      "settings": {
+        "python.linting.enabled": true,
+        "python.formatting.provider": "black",
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.black-formatter"
+        }
+      }
+    }
+  },
+  "forwardPorts": [8888, 5000],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "postStartCommand": "echo 'Codespace is ready! Run jupyter lab to open notebooks.'"
+}

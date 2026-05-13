@@ -1,0 +1,16 @@
+# Core
+requests==2.31.0
+beautifulsoup4==4.12.2
+jupyterlab==4.0.12
+pandas==2.0.3
+numpy==1.24.3
+matplotlib==3.7.2
+
+# Testing
+pytest==7.4.0
+unittest2==1.1.0
+
+# Dev
+black==23.7.0
+flake8==6.0.0
+mypy==1.4.1

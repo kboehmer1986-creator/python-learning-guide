@@ -2,7 +2,7 @@
 
 A free and open-source Python learning guide for self-learners as well as students that is covering everything from basics to advanced topics. Includes PDFs, Markdown files, code examples, exercises, quizzes and interactive modules.
 
-# Table of Contents
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
@@ -63,7 +63,7 @@ python-learning-guide/
 
 │        │
 
-│        ├── advanced/
+│        └── advanced/
 
 │               ├── decorators.py
 
@@ -73,7 +73,7 @@ python-learning-guide/
 
 ├── interactive/
 
-│        ├── notebooks/
+│        └── notebooks/
 
 │               ├── basics.ipynb
 
@@ -95,7 +95,7 @@ python-learning-guide/
 
 │        │
 
-│        │       ├── intermediate/
+│        ├── intermediate/
 
 │        │       └── oop_exercise.md
 
@@ -127,46 +127,45 @@ python-learning-guide/
 
 │        │
 
-│        ├── images/
+│        └── images/
 
-│               └── faq.md
+                └── faq.md
 
 ## How to Use
 
-- Clone the Repository with the CMD: "git clone https://github.com/kboehmer1986-creator/python-learning-guide.git"
+- Clone the Repository with the CLI CMD: `git clone https://github.com/kboehmer1986-creator/python-learning-guide.git`.
 
 ### Access the Materials
 
-- PDF: Open "pdf/python_learning_guide.pdf" for a ready-to-read version.
-- Markdown: Edit or read the source in "markdown/python_learning_guide.md".
+- PDF: Open "pdf/python-learning-guide.pdf" for a ready-to-read version.
+- Markdown: Edit or read the source in "markdown/python-learning-guide.md".
 - Code Examples: Run Python scripts in the "code/" directory.
 - Exercises: Try the exercises in "exercises/" and check solutions in "solutions/".
 - Quizzes: Test your knowledge with "quizzes/".
-- Interactive Modules: Open Jupyter Notebooks in "interactive/" ( requires JupyterLab ).
+- Interactive Modules: Open Jupyter Notebooks in "interactive/notebooks/" ( requires JupyterLab ).
 
 ### Run Code Examples
 
-- Navigate to the code/ directory and run any Python file with the CMD: "python code/basics/variables.py"
+- Navigate to the code/ directory and run any Python file with the CLI CMD: `python code/basics/variables.py`.
 
 ### Interactive Jupyter Notebooks
 
-- Install JupyterLab with the CMD: "pip install jupyterlab".
-- Launch JupyterLab with the CMD: "jupyter lab".
-- Open the notebooks in the "interactive/"  directory.
+- Install JupyterLab with the CLI CMD: `pip install jupyterlab`.
+- Launch JupyterLab with the CLI CMD: `jupyter lab`.
+- Open the notebooks in the "interactive/notebooks/"  directory.
 
 ## PDF Generation
 
 ### Option 1: LaTeX
 
 - Install LaTeX ( [TeX Live](https://www.tug.org/texlive/ ) or [MiKTeX](https://miktex.org/) ).
-- Compile the LaTeX file with the CMD: "cd latex" and 
-   "pdflatex python_learning_guide.tex".
-- The PDF will be generated as "python_learning_guide.pdf".
+- Compile the LaTeX file with the CLI CMD: `cd latex` and `pdflatex python-learning-guide.tex`.
+- The PDF will be generated as "python-learning-guide.pdf".
 
 ### Option 2: Pandoc
 
 - Install [Pandoc](https://pandoc.org/installing.html).
-- Convert Markdown to PDF with the CMD: "pandoc markdown/python_learning_guide.md -o pdf/python_learning_guide.pdf".
+- Convert Markdown to PDF with the CLI CMD: `pandoc markdown/python-learning-guide.md -o pdf/python-learning-guide.pdf`.
 
 ## Contributing
 
@@ -174,20 +173,19 @@ Contributions are welcome! Here’s how you can help:
 
 - Fork the repository.
 
-- Create a new branch with the CMD: "git checkout -b feature/your-feature".
+- Create a new branch with the CLI CMD: `git checkout -b feature/your-feature`.
 
-- Commit your changes with the CMD: "git commit -m "Add your feature"".
+- Commit your changes with the CLI CMD: `git commit -m "Add your feature"`.
 
-- Push to the branch with the CMD: "git push origin feature/your-feature".
+- Push to the branch with the CLI CMD: `git push origin feature/your-feature`.
 
 - Open a Pull Request.
-
 
 ### Contribution Guidelines:
 
 - Follow PEP 8 for Python code.
 
-- Use clear, descriptive commit messages.
+- Use clear and descriptive commit messages.
 
 - Add comments to explain complex logic.
 
