@@ -43,134 +43,116 @@ python-learning-guide/
 
 │
 
-├── notebooks/
+├── code/
 
-│   ├── basics.ipynb
+│        ├── basics/
 
-│   ├── oop.ipynb
+│        │      ├── variables.py
 
-│   ├── exercises.ipynb
+│        │      ├── loops.py
 
-│   └── solutions.ipynb
+│        │      └── functions.py
+
+│        │
+
+│        ├── intermediate/
+
+│        │      ├── classes.py
+
+│        │      └── inheritance.py
+
+│        │
+
+│        ├── advanced/
+
+│               ├── decorators.py
+
+│               └── generators.py
 
 │
 
-├── src/
+├── interactive/
 
-│   ├── basics/
+│        ├── notebooks/
 
-│   │   ├── variables.py
+│               ├── basics.ipynb
 
-│   │   ├── loops.py
+│               ├── oop.ipynb
 
-│   │   └── functions.py
+│               ├── exercises.ipynb
 
-│   │
-
-│   ├── oop/
-
-│   │   ├── classes.py
-
-│   │   ├── inheritance.py
-
-│   │   └── ...
-
-│   │
-
-│   ├── advanced/
-
-│   │   ├── decorators.py
-
-│   │   ├── generators.py
-
-│   │   └── ...
-
-│   │
-
-│   └── projects/
-
-│       ├── temperature_converter.py
-
-│       ├── web_scraper.py
-
-│       └── ...
+│               └── solutions.ipynb
 
 │
 
 ├── exercises/
 
-│   ├── beginner/
+│        ├── beginner/
 
-│   │   ├── variables_exercise.md
+│        │       ├── variables_exercise.md
 
-│   │   ├── loops_exercise.md
+│        │       └── loops_exercise.md
 
-│   │   └── ...
+│        │
 
-│   │
+│        │       ├── intermediate/
 
-│   ├── intermediate/
+│        │       └── oop_exercise.md
 
-│   │   ├── oop_exercise.md
+│        │
 
-│   │   └── ...
+│        └── solutions/
 
-│   │
+│               ├── variables_solution.py
 
-│   └── solutions/
-
-│       ├── variables_solution.py
-
-│       ├── loops_solution.py
-
-│       └── ...
+│               └── loops_solution.py
 
 │
 
 ├── quizzes/
 
-│   ├── basics_quiz.md
+│        ├── basics_quiz.md
 
-│   ├── oop_quiz.md
+│        ├── oop_quiz.md
 
-│   └── advanced_quiz.md
+│        └── advanced_quiz.md
 
 │
 
 └── resources/
 
-   ├── cheat_sheets/
-    
-   │   └── python_cheat_sheet.pdf
-   
-   │
-   
-   ├── images/
-   
-   └── faq.md
+│        ├── cheat_sheets/
+
+│        │      └── python_cheat_sheet.pdf
+
+│        │
+
+│        ├── images/
+
+│               └── faq.md
 
 ## How to Use
 
-- Clone the Repository with the CMD: "git clone https://github.com/your-username/python-learning-guide.git"
+- Clone the Repository with the CMD: "git clone https://github.com/kboehmer1986-creator/python-learning-guide.git"
 
 ### Access the Materials
 
 - PDF: Open "pdf/python_learning_guide.pdf" for a ready-to-read version.
 - Markdown: Edit or read the source in "markdown/python_learning_guide.md".
-- Code Examples: Run Python scripts in the "src/" directory.
+- Code Examples: Run Python scripts in the "code/" directory.
 - Exercises: Try the exercises in "exercises/" and check solutions in "solutions/".
 - Quizzes: Test your knowledge with "quizzes/".
-- Interactive Modules: Open Jupyter Notebooks in "notebooks/" ( requires JupyterLab ).
+- Interactive Modules: Open Jupyter Notebooks in "interactive/" ( requires JupyterLab ).
 
 ### Run Code Examples
 
-- Navigate to the src/ directory and run any Python file with the CMD: "python src/basics/variables.py"
+- Navigate to the code/ directory and run any Python file with the CMD: "python code/basics/variables.py"
 
 ### Interactive Jupyter Notebooks
 
 - Install JupyterLab with the CMD: "pip install jupyterlab".
 - Launch JupyterLab with the CMD: "jupyter lab".
-- Open the notebooks in the "notebooks/"  directory.
+- Open the notebooks in the "interactive/"  directory.
 
 ## PDF Generation
 
