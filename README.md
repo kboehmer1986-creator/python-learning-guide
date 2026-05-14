@@ -35,101 +35,131 @@ This repository provides a structured and comprehensive guide to learning Python
 
 python-learning-guide/
 
+│   ├── README.md
+
+|   ├── docker-Compose.yml
+
+|   ├── requirements.txt
+
+|   └── LICENSE
+
+|
+
+├── documentation/
+
+|   ├── ...
+
+|   └── ...
+
 │
 
-├── README.md
+├── pdf/
 
-├── LICENSE
+│   └── python-learning-guide.pdf
 
-│
+|
+
+├── latex/
+
+│   └── python-learning-guide.tex
+
+|
+
+|-- markdown/
+
+|   └── python-learning-guide.md
+
+|
 
 ├── code/
 
-│        ├── basics/
+│   ├── basics/
 
-│        │      ├── variables.py
+│   |   ├── variables.py
 
-│        │      ├── loops.py
+│   |   ├── loops.py
 
-│        │      └── functions.py
+│   |   └── functions.py
 
-│        │
+│   |
 
-│        ├── intermediate/
+│   ├── intermediate/
 
-│        │      ├── classes.py
+│   |   ├── classes.py
 
-│        │      └── inheritance.py
+│   │   └── inheritance.py
 
-│        │
+│   │
 
-│        └── advanced/
+│   └── advanced/
 
-│               ├── decorators.py
+│       ├── decorators.py
 
-│               └── generators.py
+│       └── generators.py
 
 │
 
 ├── interactive/
 
-│        └── notebooks/
+│   └── notebooks/
 
-│               ├── basics.ipynb
+│       ├── advanced.ipynb
 
-│               ├── oop.ipynb
+│       ├── basics.ipynb
 
-│               ├── exercises.ipynb
+│       ├── intermediate.ipynb
 
-│               └── solutions.ipynb
+│       ├── exercises.ipynb
+
+│       └── solutions.ipynb
 
 │
 
 ├── exercises/
 
-│        ├── beginner/
+│   ├── beginner/
 
-│        │       ├── variables_exercise.md
+│   │   ├── variables_exercise.md
 
-│        │       └── loops_exercise.md
+│   │   └── loops_exercise.md
 
-│        │
+│   │
 
-│        ├── intermediate/
+│   ├── intermediate/
 
-│        │       └── oop_exercise.md
+│   │   └── oop_exercise.md
 
-│        │
+│   │
 
-│        └── solutions/
+│   └── solutions/
 
-│               ├── variables_solution.py
+│       ├── variables_solution.py
 
-│               └── loops_solution.py
+│       └── loops_solution.py
 
 │
 
 ├── quizzes/
 
-│        ├── basics_quiz.md
+│   ├── basics_quiz.md
 
-│        ├── oop_quiz.md
+│   ├── oop_quiz.md
 
-│        └── advanced_quiz.md
+│   └── advanced_quiz.md
 
 │
 
-└── resources/
+├── resources/
 
-│        ├── cheat_sheets/
+│   ├── cheat_sheets/
 
-│        │      └── python_cheat_sheet.pdf
+│   │   └── python_cheat_sheet.pdf
 
-│        │
+│   │
 
-│        └── images/
+|   └── images/
 
-                └── faq.md
+|       └── faq.md
 
 ## How to Use
 
