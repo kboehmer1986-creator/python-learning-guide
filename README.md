@@ -33,140 +33,169 @@ This repository provides a structured and comprehensive guide to learning Python
 
 ## Repository Structure
 
-|python-learning-guide/
+
+python-learning-guide/
+
 |       |
+
 |       |-- README.md
-|       |
+
 |       |-- docker-Compose.yml
-|       |
+
 |       |-- requirements.txt
-|       |
+
 |       |__ LICENSE
+
 |
-|
+
 |-- documentation/
+
 |       |
+
 |       |-- ...
-|       |
+
 |       |-- ...
+
 |
-|
+
 |-- latex/
+
 |       |
+
 |       |__ python-learning-guide.tex
+
 |
-|
+
 |-- markdown/
+
 |       |
+
 |       |__ python-learning-guide.md
+
 |
-|
+
 |-- pdf/
+
 |       |
+
 |       |__ python-learning-guide.pdf
+
 |
-|
+
 |-- code/
+
 |       |
+
 |       |-- basics/
-|       |       |
+
 |       |       |-- functions.py
-|       |       |
+
 |       |       |-- loops.py
-|       |       |
+
 |       |       |__ variables.py
+
 |       |
-|       |
+
 |       |-- intermediate/
-|       |       |
+
 |       |       |-- classes.py
-|       |       |
+
 |       |       |__ inheritance.py
+
 |       |
-|       |
+
 |       |__ advanced/
-|               |
+
 |               |-- decorators.py
-|               |
+
 |               |__ generators.py
+
 |
-|
+
 |-- interactive/
-|       |
+
 |       |__ notebooks/
-|               |
+
 |               |-- advanced.ipynb
-|               |
+
 |               |-- basics.ipynb
-|               |
+
 |               |-- exercises.ipynb
-|               |
+
 |               |-- intermediate.ipynb
-|               |
+
 |               |__ solutions.ipynb
+
 |
-|
+
 |-- exercises/
-|       |
+
 |       |-- advanced/
-|       |       |
+
 |       |       |-- decorators_exercise.md
-|       |       |
+
 |       |       |__ generators_exercise.md
+
 |       |
-|       |
+
 |       |-- beginner/
-|       |       |
+
 |       |       |-- functions_exercise.md
-|       |       |
+
 |       |       |-- loops_exercise.md
-|       |       |
+
 |       |       |__ variables_exercise.md
+
 |       |
-|       |
+
 |       |-- intermediate/
-|       |       |
+
 |       |       |-- classes_exercise.md
-|       |       |
+
 |       |       |__ inheritance_exercise.md
+
 |       |
-|       |
+
 |       |__ solutions/
-|               |
+
 |               |-- decorators_solution.py
-|               |
+
 |               |-- generators_solution.py
-|               |
+
 |               |-- classes_solution.py
-|               |
+
 |               |-- inheritance_solution.py
-|               |
+
 |               |-- functions_solution.py
-|               |
+
 |               |-- variables_solution.py
-|               |
+
 |               |__ loops_solution.py
+
 |
-|
+
 |-- quizzes/
-|       |
+
 |       |-- advanced_quiz.md
-|       |
+
 |       |-- basics_quiz.md
-|       |
+
 |       |__ intermediate_quiz.md
+
 |
-|
+
 |-- resources/
-|       |
+
 |       |-- cheat_sheets/
-|       |       |
+
 |       |       |__ python_cheat_sheet.pdf
+
 |       |
-|       |
+
 |       |__ images/
-|               |
+
 |               |__ faq.md
+
 
 ## How to Use
 
