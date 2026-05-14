@@ -65,7 +65,7 @@ python-learning-guide/
 
 |
 
-|-- markdown/
+├── markdown/
 
 |   └── python-learning-guide.md
 
