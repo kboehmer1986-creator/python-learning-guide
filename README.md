@@ -75,21 +75,21 @@ python-learning-guide/
 
 |       ├── basics/
 
-|       |   ├── variables.py
+|          ├── variables.py
 
-|       |   ├── loops.py
+|          ├── loops.py
 
-|       |   └── functions.py
+|          └── functions.py
 
-|       |
+| 
 
 |       ├── intermediate/
 
-|       |   ├── classes.py
+|          ├── classes.py
 
-|       |   └── inheritance.py
+|          └── inheritance.py
 
-|       |
+|
 
 |       └── advanced/
 
@@ -115,33 +115,33 @@ python-learning-guide/
 
 |
 
-├── exercises/
+|── exercises/
 
 |       ├── advanced/
 
-|       |   ├── generators_exercise.md 
+|          ├── generators_exercise.md 
 
-|       |   └── decorators_exercise.md
+|          └── decorators_exercise.md
 
-|       |
+|       
 
 |       ├── beginner/
 
-|       │   ├── functions_exercise.md
+|          ├── functions_exercise.md
 
-|       │   ├── variables_exercise.md
+|          ├── variables_exercise.md
 
-|       │   └── loops_exercise.md
+|          └── loops_exercise.md
 
 |       │
 
 |       ├── intermediate/
 
-|       │   ├── inheritance_exercise.md
+|          ├── inheritance_exercise.md
 
-|       │   └── classes_exercise.md
+|          └── classes_exercise.md
 
-|       │
+|       
 
 |       └── solutions/
 
@@ -161,7 +161,7 @@ python-learning-guide/
 
 |
 
-├── quizzes/
+|── quizzes/
 
 |       ├── basics_quiz.md
 
@@ -171,13 +171,13 @@ python-learning-guide/
 
 |
 
-├── resources/
+|── resources/
 
 |       ├── cheat_sheets/
 
-|       │   └── python_cheat_sheet.pdf
+|          └── python_cheat_sheet.pdf
 
-|       │
+|       
 
 |       └── images/
 
