@@ -114,7 +114,7 @@ python-learning-guide/
 
 |-- interactive/
 
-|       |-- notebooks/
+|        |-- notebooks/
 
 |               |-- advanced.ipynb
 
