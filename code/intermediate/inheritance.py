@@ -1,7 +1,6 @@
 # This file demonstrates inheritance concepts in Python.
 
 # --- Single Inheritance ---
-
 class Animal:
     """Base class representing an animal."""
 
@@ -44,7 +43,6 @@ print(dog.make_sound())  # Woof! Woof!
 print(dog.fetch())  # Buddy is fetching the ball!
 
 # --- Multiple Inheritance ---
-
 class Father:
     """Class representing a father."""
 
@@ -99,18 +97,14 @@ print(f"Child's name: {child.name}")
 print(f"Father's name: {child.father_name}")
 print(f"Mother's name: {child.mother_name}")
 child.skills()
-
 # Output:
 # Programming
 # Cooking
 # Sports
-
 print(child.advice())
-
 # Output: Father says: 'Work hard and be honest.' and Mother says: 'Be kind to everyone.'
 
-# --- Method Resolution Order ( MRO ) ---
-
+# --- Method Resolution Order (MRO) ---
 class A:
     def method(self):
         print("A method")
@@ -141,11 +135,9 @@ d.method()
 # A method
 
 print(f"MRO for D: {D.__mro__}")
-
-# Output: ( <class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'> )
+# Output: (<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>)
 
 # --- Hierarchical Inheritance ---
-
 class Vehicle:
     """Base class representing a vehicle."""
 
@@ -193,7 +185,6 @@ motorcycle = Motorcycle("Harley-Davidson", "Sportster", False)
 print(motorcycle.display_info())  # Harley-Davidson Sportster without sidecar
 
 # --- Multilevel Inheritance ---
-
 class Grandparent:
     """Base class representing a grandparent."""
 
@@ -233,7 +224,6 @@ print(child.give_advice())  # Dad gives some advice.
 print(child.play())  # Alice is playing.
 
 # --- Inheritance with Magic Methods ---
-
 class Shape:
     """Base class representing a shape."""
 
@@ -285,7 +275,6 @@ for shape in shapes:
     print()
 
 # --- Abstract Base Classes (ABC) with Inheritance ---
-
 from abc import ABC, abstractmethod
 
 class Instrument(ABC):
@@ -340,7 +329,6 @@ print(violin.play())  # Playing the violin with a bow.
 print(violin.tune())  # Tuning 4 strings.
 
 # --- Inheritance with Class Methods and Static Methods ---
-
 class Product:
     """Base class representing a product."""
 
@@ -381,12 +369,10 @@ product = Product("Book", 50)
 print(f"Book total price: {product.total_price():.2f}")  # 60.00
 
 # Change tax rate for all products
-
 Product.set_tax_rate(0.25)
 print(f"Book total price after tax change: {product.total_price():.2f}")  # 62.50
 
 # Calculate discount
-
 discounted_price = Product.calculate_discount(100, 10)
 print(f"Discounted price: {discounted_price:.2f}")  # 90.00
 
@@ -394,7 +380,6 @@ electronic = ElectronicProduct("Laptop", 1000, "2 years")
 print(f"Laptop total price: {electronic.total_price():.2f}")  # 1250.00 + 20 = 1270.00
 
 # --- Inheritance with Property Decorators ---
-
 class Person:
     """Base class representing a person."""
 
@@ -461,7 +446,6 @@ except ValueError as e:
     print(f"Error: {e}")  # Error: Age cannot be negative.
 
 # --- Practical Example: Inheritance in a Game ---
-
 class GameCharacter:
     """Base class representing a game character."""
 
