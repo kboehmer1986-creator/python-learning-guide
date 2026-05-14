@@ -44,7 +44,7 @@ python-learning-guide/
 
 |       |-- requirements.txt
 
-|       |__ LICENSE
+|       |-- LICENSE
 
 |
 
@@ -62,7 +62,7 @@ python-learning-guide/
 
 |       |
 
-|       |__ python-learning-guide.tex
+|       |-- python-learning-guide.tex
 
 |
 
@@ -70,7 +70,7 @@ python-learning-guide/
 
 |       |
 
-|       |__ python-learning-guide.md
+|       |-- python-learning-guide.md
 
 |
 
@@ -78,7 +78,7 @@ python-learning-guide/
 
 |       |
 
-|       |__ python-learning-guide.pdf
+|       |-- python-learning-guide.pdf
 
 |
 
@@ -92,7 +92,7 @@ python-learning-guide/
 
 |       |       |-- loops.py
 
-|       |       |__ variables.py
+|       |       |-- variables.py
 
 |       |
 
@@ -100,21 +100,21 @@ python-learning-guide/
 
 |       |       |-- classes.py
 
-|       |       |__ inheritance.py
+|       |       |-- inheritance.py
 
 |       |
 
-|       |__ advanced/
+|       |-- advanced/
 
 |               |-- decorators.py
 
-|               |__ generators.py
+|               |-- generators.py
 
 |
 
 |-- interactive/
 
-|       |__ notebooks/
+|       |-- notebooks/
 
 |               |-- advanced.ipynb
 
@@ -124,7 +124,7 @@ python-learning-guide/
 
 |               |-- intermediate.ipynb
 
-|               |__ solutions.ipynb
+|               |-- solutions.ipynb
 
 |
 
@@ -134,7 +134,7 @@ python-learning-guide/
 
 |       |       |-- decorators_exercise.md
 
-|       |       |__ generators_exercise.md
+|       |       |-- generators_exercise.md
 
 |       |
 
@@ -144,7 +144,7 @@ python-learning-guide/
 
 |       |       |-- loops_exercise.md
 
-|       |       |__ variables_exercise.md
+|       |       |-- variables_exercise.md
 
 |       |
 
@@ -152,11 +152,11 @@ python-learning-guide/
 
 |       |       |-- classes_exercise.md
 
-|       |       |__ inheritance_exercise.md
+|       |       |-- inheritance_exercise.md
 
 |       |
 
-|       |__ solutions/
+|       |-- solutions/
 
 |               |-- decorators_solution.py
 
@@ -170,7 +170,7 @@ python-learning-guide/
 
 |               |-- variables_solution.py
 
-|               |__ loops_solution.py
+|               |-- loops_solution.py
 
 |
 
@@ -180,7 +180,7 @@ python-learning-guide/
 
 |       |-- basics_quiz.md
 
-|       |__ intermediate_quiz.md
+|       |-- intermediate_quiz.md
 
 |
 
@@ -188,13 +188,13 @@ python-learning-guide/
 
 |       |-- cheat_sheets/
 
-|       |       |__ python_cheat_sheet.pdf
+|       |       |-- python_cheat_sheet.pdf
 
 |       |
 
-|       |__ images/
+|       |-- images/
 
-|               |__ faq.md
+|               |-- faq.md
 
 
 ## How to Use
