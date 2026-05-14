@@ -35,7 +35,7 @@ This repository provides a structured and comprehensive guide to learning Python
 
 python-learning-guide/
 
-│       ├── README.md
+|       ├── README.md
 
 |       ├── docker-Compose.yml
 
@@ -45,79 +45,79 @@ python-learning-guide/
 
 |
 
-├── documentation/
+|── documentation/
 
 |       ├── ...
 
 |       └── ...
 
-│
+|
 
-├── pdf/
+|── pdf/
 
-│       └── python-learning-guide.pdf
+|       └── python-learning-guide.pdf
 
 |
 
-├── latex/
+|── latex/
 
-│       └── python-learning-guide.tex
+|       └── python-learning-guide.tex
 
 |
 
-|-- markdown/
+|── markdown/
 
 |       └── python-learning-guide.md
 
 |
 
-├── code/
+|── code/
 
-│       ├── basics/
+|       ├── basics/
 
-│       |   ├── variables.py
+|       |   ├── variables.py
 
-│       |   ├── loops.py
+|       |   ├── loops.py
 
-│       |   └── functions.py
+|       |   └── functions.py
 
-│       |
+|       |
 
-│       ├── intermediate/
+|       ├── intermediate/
 
-│       |   ├── classes.py
+|       |   ├── classes.py
 
-│       │   └── inheritance.py
+|       |   └── inheritance.py
 
-│       │
+|       |
 
-│       └── advanced/
+|       └── advanced/
 
-│           ├── decorators.py
+|           ├── decorators.py
 
-│           └── generators.py
+|           └── generators.py
 
-│
+|
 
-├── interactive/
+|── interactive/
 
-│       └── notebooks/
+|       └── notebooks/
 
-│           ├── advanced.ipynb
+|           ├── advanced.ipynb
 
-│           ├── basics.ipynb
+|           ├── basics.ipynb
 
-│           ├── intermediate.ipynb
+|           ├── intermediate.ipynb
 
-│           ├── exercises.ipynb
+|           ├── exercises.ipynb
 
-│           └── solutions.ipynb
+|           └── solutions.ipynb
 
-│
+|
 
 ├── exercises/
 
-│       ├── advanced/
+|       ├── advanced/
 
 |       |   ├── generators_exercise.md 
 
@@ -125,59 +125,59 @@ python-learning-guide/
 
 |       |
 
-│       ├── beginner/
+|       ├── beginner/
 
-│       │   ├── functions_exercise.md
+|       │   ├── functions_exercise.md
 
-│       │   ├── variables_exercise.md
+|       │   ├── variables_exercise.md
 
-│       │   └── loops_exercise.md
+|       │   └── loops_exercise.md
 
-│       │
+|       │
 
-│       ├── intermediate/
+|       ├── intermediate/
 
-│       │   ├── inheritance_exercise.md
+|       │   ├── inheritance_exercise.md
 
-│       │   └── classes_exercise.md
+|       │   └── classes_exercise.md
 
-│       │
+|       │
 
-│       └── solutions/
+|       └── solutions/
 
-│           ├── decorators_solution.py
+|           ├── decorators_solution.py
 
-│           ├── generators_solution.py
+|           ├── generators_solution.py
 
-│           ├── classes_solution.py
+|           ├── classes_solution.py
 
-│           ├── inheritance_solution.py
+|           ├── inheritance_solution.py
 
-│           ├── functions_solution.py
+|           ├── functions_solution.py
 
-│           ├── variables_solution.py
+|           ├── variables_solution.py
 
-│           └── loops_solution.py
+|           └── loops_solution.py
 
-│
+|
 
 ├── quizzes/
 
-│       ├── basics_quiz.md
+|       ├── basics_quiz.md
 
-│       ├── intermediate_quiz.md
+|       ├── intermediate_quiz.md
 
-│       └── advanced_quiz.md
+|       └── advanced_quiz.md
 
-│
+|
 
 ├── resources/
 
-│       ├── cheat_sheets/
+|       ├── cheat_sheets/
 
-│       │   └── python_cheat_sheet.pdf
+|       │   └── python_cheat_sheet.pdf
 
-│       │
+|       │
 
 |       └── images/
 
