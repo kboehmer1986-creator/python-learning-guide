@@ -196,6 +196,28 @@ python-learning-guide/
 
 |               |-- faq.md
 
+|
+
+|-- projects/
+
+|       |-- temperature_converter/
+
+|       |       |-- temperature_converter.py
+
+|       |
+
+|       |-- web-scraper/
+
+|       |       |-- web-scraper.py
+
+|       |
+
+|       |-- ...
+
+|       |
+
+|       |-- ...
+
 
 ## How to Use
 
