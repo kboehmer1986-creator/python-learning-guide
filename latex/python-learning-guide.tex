@@ -1,0 +1,360 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\title{Comprehensive Python Learning Guide: From Beginner to Advanced}
+\author{Kay Böhmer}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Comprehensive Python Learning Guide: From Beginner to Advanced}
+
+- Version: 1.0 ( Free Edition )
+- Author: [ Kay Böhmer ]
+- Date: May 2026
+- License: Creative Commons ( CC0-1.0 license )
+
+\subsection{Table of Contents}
+
+\begin{itemize}
+    \item [Introduction to Python](\#introduction-to-python)
+    \item [Python Basics](\#python-basics)
+    \item [Control Flow](\#control-flow)
+    \item [Functions and Modules](\#functions--modules)
+    \item [Data Structures](\#data-structures)
+    \item [File Handling](\#file-handling)
+    \item [Object-Oriented Programming (OOP)](\#object-oriented-programming-oop)
+    \item [Advanced Python Concepts](\#advanced-python-concepts)
+    \item [Debugging and Testing](\#debugging--testing)
+    \item [Working with Libraries and Frameworks](\#working-with-libraries--frameworks)
+    \item [Practical Exercises and Projects](\#practical-exercises--projects)
+    \item [Quizzes and Knowledge Checks](\#quizzes--knowledge-checks)
+    \item [Interactive Learning Modules](\#interactive-learning-modules)
+    \item [Common Mistakes and Best Practices](\#common-mistakes--best-practices)
+    \item [Free Learning Resources](\#free-learning-resources)
+\end{itemize}
+
+\section{Introduction to Python}
+
+Python is a high-level, interpreted, and general-purpose programming language known for its readability, versatility, and strong community support. It is widely used in industries like web development, data science, artificial intelligence, and automation.
+
+\subsection{Why Learn Python?}
+
+\begin{itemize}
+    \item Readability: Clean and easy-to-understand syntax.
+    \item Versatility: Used in web development, data science, AI, automation, and more.
+    \item Community Support: Large ecosystem of libraries and frameworks.
+    \item Beginner-Friendliness: Ideal for beginners due to its simplicity.
+\end{itemize}
+
+\subsection{Python in Industry \& Academia}
+
+\begin{itemize}
+    \item Industry: Used by companies like Google, Netflix, NASA, and Instagram.
+    \item Academia: Taught in universities worldwide for introductory programming courses.
+\end{itemize}
+
+\subsection{Setting Up Python}
+
+\subsubsection{Installing Python}
+
+\begin{itemize}
+    \item Windows: Download the installer from [python.org](https://www.python.org/downloads/) and run it.
+    \item Linux: Use the package manager (e.g., sudo apt install python3 for Ubuntu).
+    \item MacOS: Use Homebrew (brew install python) or download from [python.org](https://www.python.org/downloads/macos/).
+\end{itemize}
+
+\subsubsection{Choosing an IDE}
+
+\begin{itemize}
+    \item Beginner-Friendly: Thonny, IDLE, VS Code (with Python extension).
+    \item Advanced: PyCharm, Jupyter Notebook, Spyder.
+\end{itemize}
+
+\subsubsection{Using Anaconda (Optional)}
+
+Anaconda is a data science-focused distribution of Python that includes the Python interpreter, Jupyter Notebook, and popular libraries like NumPy, Pandas, and Matplotlib. Download from [anaconda.com](https://www.anaconda.com/products/distribution).
+
+\section{Python Basics}
+
+\subsection{Syntax \& Indentation}
+
+Python uses indentation (whitespace) to define code blocks (instead of braces {}).
+
+\begin{lstlisting}[language=Python]
+if 5 > 2:
+    print("Five is greater than two!")
+\end{lstlisting}
+
+\subsection{Variables \& Data Types}
+
+Variables in Python are dynamically typed. Common data types include:
+
+\begin{itemize}
+    \item int: Integer (e.g., x = 10).
+    \item float: Floating-point number (e.g., y = 3.14).
+    \item str: String (e.g., name = "Alice").
+    \item bool: Boolean (e.g., is_valid = True).
+    \item list: Ordered, mutable collection (e.g., nums = [1, 2, 3]).
+    \item tuple: Ordered, immutable collection (e.g., point = (1, 2)).
+    \item dict: Key-value pairs (e.g., person = {"name": "Alice"}).
+    \item set: Unordered, unique elements (e.g., unique_nums = {1, 2, 3}).
+\end{itemize}
+
+\begin{lstlisting}[language=Python]
+# Variable assignment
+age = 25                # int
+price = 19.99           # float
+name = "Kay"            # str
+is_student = True       # bool
+fruits = ["apple", "banana"]  # list
+coordinates = (10, 20) # tuple
+person = {"name": "Kay", "age": 25}  # dict
+unique_numbers = {1, 2, 3}    # set
+\end{lstlisting}
+
+\subsection{Basic Operators}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Operator} & \textbf{Example} & \textbf{Description} \\
+\hline
++ & x + y & Addition \\
+- & x - y & Subtraction \\
+* & x * y & Multiplication \\
+/ & x / y & Division (returns float) \\
+\% & x \% y & Modulus (remainder) \\
+** & x ** y & Exponentiation \\
+// & x // y & Floor division \\
+== & x == y & Equal to \\
+!= & x != y & Not equal to \\
+> & x > y & Greater than \\
+< & x < y & Less than \\
+and & x and y & Logical AND \\
+or & x or y & Logical OR \\
+not & not x & Logical NOT \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Input/Output}
+
+\begin{lstlisting}[language=Python]
+name = input("Enter your name: ")
+print(f"Hello, {name}!")
+\end{lstlisting}
+
+\section{Control Flow}
+
+\subsection{Conditional Statements}
+
+\begin{lstlisting}[language=Python]
+age = 18
+if age < 13:
+    print("Child")
+elif age < 18:
+    print("Teenager")
+else:
+    print("Adult")
+\end{lstlisting}
+
+\subsection{Loops}
+
+\subsubsection{for Loop}
+
+\begin{lstlisting}[language=Python]
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+\end{lstlisting}
+
+\subsubsection{while Loop}
+
+\begin{lstlisting}[language=Python]
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+\end{lstlisting}
+
+\section{Functions \& Modules}
+
+\subsection{Defining Functions}
+
+\begin{lstlisting}[language=Python]
+def greet(name):
+    """This function greets the person passed in as a parameter"""
+    return f"Hello, {name}!"
+
+print(greet("Kay"))  # Output: Hello, Kay!
+\end{lstlisting}
+
+\subsection{Importing Modules}
+
+\begin{lstlisting}[language=Python]
+import math
+print(math.sqrt(16))  # Output: 4.0
+
+from math import pi
+print(pi)  # Output: 3.141592653589793
+\end{lstlisting}
+
+\section{Data Structures}
+
+\subsection{Lists}
+
+\begin{lstlisting}[language=Python]
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+print(fruits)  # Output: ['apple', 'banana', 'cherry', 'orange']
+\end{lstlisting}
+
+\subsection{Dictionaries}
+
+\begin{lstlisting}[language=Python]
+person = {"name": "Kay", "age": 25}
+print(person["name"])  # Output: Kay
+\end{lstlisting}
+
+\section{OOP in Python}
+
+\subsection{Classes \& Objects}
+
+\begin{lstlisting}[language=Python]
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        return f"Hello, I'm {self.name}!"
+
+person = Person("Kay", 25)
+print(person.greet())  # Output: Hello, I'm Kay!
+\end{lstlisting}
+
+\section{Advanced Python Concepts}
+
+\subsection{Decorators}
+
+\begin{lstlisting}[language=Python]
+def logger(func):
+    def wrapper(*args, **kwargs):
+        print(f"Calling {func.__name__}")
+        return func(*args, **kwargs)
+    return wrapper
+
+@logger
+def add(a, b):
+    return a + b
+
+print(add(2, 3))  # Output: Calling add \n 5
+\end{lstlisting}
+
+\section{Practical Exercises \& Projects}
+
+\subsection{Beginner Projects}
+
+\begin{itemize}
+    \item Hello World
+    \item Temperature Converter
+    \item Simple Calculator
+\end{itemize}
+
+\subsection{Intermediate Projects}
+
+\begin{itemize}
+    \item Web Scraper
+    \item File Encryption/Decryption
+\end{itemize}
+
+\section{Quizzes \& Knowledge Checks}
+
+\subsection{Python Basics Quiz}
+
+\begin{enumerate}
+    \item What is the output of \texttt{print(10 \% 3)}?
+    \begin{itemize}
+        \item A) 1
+        \item B) 2
+        \item C) 3
+        \item D) 0
+    \end{itemize}
+    \textbf{Answer:} A) 1
+\end{enumerate}
+
+\section{Free Learning Resources}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Resource} & \textbf{Description} & \textbf{Link} \\
+\hline
+Official Python Docs & Comprehensive tutorials \& references & \href{https://docs.python.org/3/}{python.org} \\
+W3Schools Python & Beginner-friendly examples & \href{https://www.w3schools.com/python/}{w3schools.com/python} \\
+Codecademy & Interactive Python course & \href{https://www.codecademy.com/learn/learn-python-3}{codecademy.com} \\
+LearnPython.org & Free interactive tutorial & \href{https://www.learnpython.org/}{learnpython.org} \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Appendices}
+
+\subsection{Python Cheat Sheet}
+
+\begin{lstlisting}[language=Python]
+# Variables
+x = 10
+name = "Kay"
+
+# Lists
+lst = [1, 2, 3]
+lst.append(4)
+
+# Functions
+def add(a, b):
+    return a + b
+\end{lstlisting}
+
+\end{document}
