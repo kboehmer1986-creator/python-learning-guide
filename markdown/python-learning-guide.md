@@ -92,14 +92,14 @@ Variables in Python are dynamically typed. Common data types include:
 
 #### Example
 
-age = 39                             # int
-price = 19.99                        # float
-name = "Kay"                         # str
-is_student = True                    # bool
-fruits = ["apple", "banana"]         # list
-coordinates = (10, 20)               # tuple
-person = {"name": "Kay", "age": 39}  # dict
-unique_numbers = {1, 2, 3}           # set
+- age = 39  # int
+- price = 19.99  # float
+- name = "Kay"  # str
+- is_student = True  # bool
+- fruits = ["apple", "banana"]  # list
+- coordinates = (10, 20)  # tuple
+- person = {"name": "Kay", "age": 39}  # dict
+- unique_numbers = {1, 2, 3}  # set
 
 ### Basic Operators
 
