@@ -41,7 +41,7 @@ Python is a high-level, interpreted and general-purpose programming language kno
 - Industry: Used by companies like Google, Netflix, NASA and Instagram.
 - Academia: Taught in universities worldwide for introductory programming courses.
 
-### Setting Up Python
+## Setting Up Python
 
 ### Installing Python
 
@@ -54,7 +54,7 @@ Python is a high-level, interpreted and general-purpose programming language kno
 - Beginner-Friendly: Thonny, IDLE or VS Code with Python extension.
 - Advanced: PyCharm, Jupyter Notebook or Spyder.
 
-#### Using Anaconda ( Optional )
+### Using Anaconda ( Optional )
 
 Anaconda is a data science-focused distribution of Python that includes:
 
@@ -138,17 +138,17 @@ print(f"Hello, {name}!")
 
 ### Solution
 
-#### Create variables
+### Create variables
  
 name = "Kay"
 age = 39
 favorite_color = "blue"
 
-#### Print using f-string
+### Print using f-string
  
 print(f"Name: {name}, Age: {age}, Favorite Color: {favorite_color}")
 
-#### User input
+### User input
 
 user_name = input("Enter your name: ")
 user_age = input("Enter your age: ")
@@ -210,14 +210,14 @@ while count < 5:
 
 #### Example
 
-#### Print odd numbers only
+### Print odd numbers only
 
 for i in range(10):
     if i % 2 == 0:
         continue
     print(i)
 
-#### Exit loop when i == 5
+### Exit loop when i == 5
 
 for i in range(10):
     if i == 5:
@@ -232,7 +232,7 @@ for i in range(10):
 
 ### Solution
 
-#### Check number
+### Check number
 
 num = float(input("Enter a number: "))
 if num > 0:
@@ -242,12 +242,12 @@ elif num < 0:
 else:
     print("Zero")
 
-#### First 10 even numbers
+### First 10 even numbers
 
 for i in range(2, 21, 2):
     print(i)
 
-#### Countdown from 10 to 1
+### Countdown from 10 to 1
 
 i = 10
 while i >= 1:
@@ -261,7 +261,7 @@ while i >= 1:
 ### Syntax
 
 def function_name(parameters):
-                  # Code to execute
+                  #### Code to execute
     return value  # Optional
 
 #### Example
@@ -302,14 +302,14 @@ print(square(5))  # Output: 25
 
 #### Example
 
-x = 10  #### Global variable
+x = 10  # Global variable
 
 def my_func():
-    y = 5  #### Local variable
-    print(x)  #### Access global variable
+    y = 5  # Local variable
+    print(x)  # Access global variable
 
 my_func()
-print(y)  #### Error: y is not defined outside the function
+print(y)  # Error: y is not defined outside the function
 
 ### Importing Modules
 
@@ -320,10 +320,10 @@ print(y)  #### Error: y is not defined outside the function
 #### Example
 
 import math
-print(math.sqrt(16))  #### Output: 4.0
+print(math.sqrt(16))  # Output: 4.0
 
 from math import pi
-print(pi)  #### Output: 3.141592653589793
+print(pi)  # Output: 3.141592653589793
 
 import numpy as np
 print(np.array([1, 2, 3]))
@@ -336,14 +336,14 @@ print(np.array([1, 2, 3]))
 
 ### Solution
 
-#### Check if even
+### Check if even
 
 def is_even(num):
     return num % 2 == 0
 
-print(is_even(4))  #### Output: True
+print(is_even(4))  # Output: True
 
-#### Calculate area
+### Calculate area
 
 import math
 def calculate_area(radius):
@@ -351,7 +351,7 @@ def calculate_area(radius):
 
 print(calculate_area(5))  # Output: ~78.54
 
-#### Roll dice
+### Roll dice
 
 import random
 def roll_dice():
@@ -390,8 +390,8 @@ print(fruits)  # Output: ['apple', 'cherry', 'orange']
 #### Example
 
 point = (10, 20)
-x, y = point  #### Unpacking
-print(x)  #### Output: 10
+x, y = point  # Unpacking
+print(x)  # Output: 10
 
 ### Dictionaries and Key-Value Pairs
 
@@ -410,10 +410,10 @@ print(x)  #### Output: 10
 #### Example
 
 person = {"name": "Kay", "age": 39, "city": "Erfurt"}
-print(person["name"])  #### Output: Kay
-person["age"] = 39  #### Update value
-person["job"] = "Developer"  #### Add new key-value
-print(person)  #### Output: {'name': 'Kay', 'age': 39, 'city': 'Erfurt', 'job': 'Developer'}
+print(person["name"])  # Output: Kay
+person["age"] = 39  # Update value
+person["job"] = "Developer"  # Add new key-value
+print(person)  # Output: {'name': 'Kay', 'age': 39, 'city': 'Erfurt', 'job': 'Developer'}
 
 ### Sets and Set Operations
 
@@ -431,8 +431,8 @@ Sets are unordered, unique collections.
 
 a = {1, 2, 3}
 b = {3, 4, 5}
-print(a.union(b))  #### Output: {1, 2, 3, 4, 5}
-print(a.intersection(b))  #### Output: {3}
+print(a.union(b))  # Output: {1, 2, 3, 4, 5}
+print(a.intersection(b))  # Output: {3}
 
 ### Exercise: Data Structures
 
@@ -442,17 +442,17 @@ print(a.intersection(b))  #### Output: {3}
 
 ### Solution
 
-#### List of squares
+### List of squares
 
 squares = [x ** 2 for x in range(1, 11)]
 print(squares)  # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
-#### Dictionary of cubes
+### Dictionary of cubes
 
 cubes = {x: x ** 3 for x in range(1, 6)}
 print(cubes)  # {1: 1, 2: 8, 3: 27, 4: 64, 5: 125}
 
-#### Set of unique words
+### Set of unique words
 
 text = "hello world hello python"
 unique_words = set(text.split())
@@ -486,16 +486,16 @@ with open("filename.txt", "r") as file:
 
 #### Example
 
-#### Write to a file
+### Write to a file
 
 with open("example.txt", "w") as file:
     file.write("Line 1\nLine 2\nLine 3")
 
-#### Read from a file
+### Read from a file
 
 with open("example.txt", "r") as file:
     for line in file:
-        print(line.strip())  #### strip() removes newline characters
+        print(line.strip())  # strip() removes newline characters
 
 ### Exercise: File Handling
 
@@ -505,13 +505,13 @@ with open("example.txt", "r") as file:
 
 ### Solution
 
-#### Count lines in a file
+### Count lines in a file
 
 with open("example.txt", "r") as file:
     lines = file.readlines()
     print(f"Number of lines: {len(lines)}")
 
-#### Write list of dictionaries to JSON
+### Write list of dictionaries to JSON
 
 import json
 people = [
@@ -521,7 +521,7 @@ people = [
 with open("people.json", "w") as file:
     json.dump(people, file)
 
-#### Read first row of CSV
+### Read first row of CSV
 
 import csv
 with open("data.csv", "r") as file:
@@ -554,7 +554,7 @@ class Person:
     def greet(self):
         return f"Hello, I'm {self.name} and I'm {self.age} years old."
 
-#### Create an object
+### Create an object
 
 person = Person("Kay", 39)
 print(person.greet())
@@ -567,7 +567,7 @@ print(person.greet())
 
 ### Solution
 
-#### Car class
+### Car class
 
 class Car:
     def __init__(self, make, model, year):
@@ -578,7 +578,7 @@ class Car:
     def display_info(self):
         print(f"{self.year} {self.make} {self.model}")
 
-#### ElectricCar class
+### ElectricCar class
 
 class ElectricCar(Car):
     def __init__(self, make, model, year, battery_size):
@@ -588,13 +588,13 @@ class ElectricCar(Car):
     def display_info(self):
         print(f"{self.year} {self.make} {self.model} (Battery: {self.battery_size} kWh)")
 
-#### Test
+### Test
 
 car = Car("Toyota", "Corolla", 2020)
-car.display_info()  #### Output: 2020 Toyota Corolla
+car.display_info()  # Output: 2020 Toyota Corolla
 
 electric_car = ElectricCar("Tesla", "Model S", 2022, 100)
-electric_car.display_info()  #### Output: 2022 Tesla Model S (Battery: 100 kWh)
+electric_car.display_info()  # Output: 2022 Tesla Model S ( Battery: 100 kWh )
 
 ## Advanced Python Concepts
 
@@ -637,7 +637,7 @@ print(add(3, 5))
 
 ### Solution
 
-#### Timer decorator
+### Timer decorator
 
 import time
 
@@ -656,7 +656,7 @@ def slow_function():
 
 slow_function()
 
-#### Fibonacci generator
+### Fibonacci generator
 
 def fibonacci(n):
     a, b = 0, 1
@@ -678,12 +678,12 @@ for num in fibonacci(10):
 import pdb
 
 def divide(a, b):
-    pdb.set_trace()  #### Start debugger
+    pdb.set_trace()  # Start debugger
     return a / b
 
 divide(10, 2)
 
-#### Commands
+### Commands
 
 - `n` ( next line )
 - `c` ( continue )
@@ -713,20 +713,20 @@ if __name__ == "__main__":
 
 ### Virtual Environments
 
-#### Create a virtual environment
+### Create a virtual environment
 
-`python -m venv myenv`       #### Create
+`python -m venv myenv`       # Create
 
-#### Activate a virtual environment
+### Activate a virtual environment
 
-`source myenv/bin/activate`  #### Linux / Mac
-`myenv\Scripts\activate`     #### Windows
+`source myenv/bin/activate`  # Linux / Mac
+`myenv\Scripts\activate`     # Windows
 
-#### Deactivate a virtual environment
+### Deactivate a virtual environment
 
-`deactivate`                #### Deactivate
+`deactivate`                # Deactivate
 
-#### Install packages
+### Install packages
 
 `pip install package_name`
 
@@ -739,7 +739,7 @@ if __name__ == "__main__":
 import requests
 
 response = requests.get("https://www.example.com")
-print(response.text[:100])  #### Print the first 100 characters.
+print(response.text[:100])  # Print the first 100 characters.
 
 ## Practical Exercises and Projects
 
@@ -794,28 +794,28 @@ elif unit == "F":
 
 ### Jupyter Notebooks
 
-#### Install JupyterLab
+### Install JupyterLab
 
 `pip install jupyterlab`
 
-#### Start JupyterLab
+### Start JupyterLab
 
 `jupyter lab`
 
-#### Create a Notebook
+### Create a Notebook
 
 - Mix Markdown for explanations and code cells for Python code.
 
 #### Example
 
-#### Code cell
+### Code cell
 
 def greet(name):
     return f"Hello, {name}!"
 
 greet("Kay")
 
-#### Output
+### Output
 
 'Hello, Kay!'
 
@@ -910,12 +910,12 @@ def add(a, b):
 
 ### File Handling
 
-#### Read file
+### Read file
 
 with open("file.txt", "r") as file:
     content = file.read()
 
-#### Write file
+### Write file
 
 with open("file.txt", "w") as file:
     file.write("Hello, World!")
