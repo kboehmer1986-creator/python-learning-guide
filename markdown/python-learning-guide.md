@@ -161,11 +161,11 @@ print(f"Hello, {user_name}! You are {user_age} years old.")
 ### Syntax
 
 - if condition1
-    # Code to execute if condition1 is True.
+    #### Code to execute if condition1 is True.
 - elif condition2
-    # Code to execute if condition2 is True.
+    #### Code to execute if condition2 is True.
 - else
-    # Code to execute if all conditions are False.
+    #### Code to execute if all conditions are False.
 
 #### Example
 
@@ -182,7 +182,7 @@ else:
 ### `for` Loop
 
 for item in sequence:
-    # Code to execute for each item
+    #### Code to execute for each item
 
 #### Example
 
@@ -193,7 +193,7 @@ for fruit in fruits:
 ### `while` Loop
 
 while condition:
-    # Code to execute while condition is True
+    #### Code to execute while condition is True
 
 #### Example
 
@@ -302,14 +302,14 @@ print(square(5))  # Output: 25
 
 #### Example
 
-x = 10  # Global variable
+x = 10  #### Global variable
 
 def my_func():
-    y = 5  # Local variable
-    print(x)  # Access global variable
+    y = 5  #### Local variable
+    print(x)  #### Access global variable
 
 my_func()
-print(y)  # Error: y is not defined outside the function
+print(y)  #### Error: y is not defined outside the function
 
 ### Importing Modules
 
@@ -320,10 +320,10 @@ print(y)  # Error: y is not defined outside the function
 #### Example
 
 import math
-print(math.sqrt(16))  # Output: 4.0
+print(math.sqrt(16))  #### Output: 4.0
 
 from math import pi
-print(pi)  # Output: 3.141592653589793
+print(pi)  #### Output: 3.141592653589793
 
 import numpy as np
 print(np.array([1, 2, 3]))
@@ -341,7 +341,7 @@ print(np.array([1, 2, 3]))
 def is_even(num):
     return num % 2 == 0
 
-print(is_even(4))  # Output: True
+print(is_even(4))  #### Output: True
 
 #### Calculate area
 
@@ -390,8 +390,8 @@ print(fruits)  # Output: ['apple', 'cherry', 'orange']
 #### Example
 
 point = (10, 20)
-x, y = point  # Unpacking
-print(x)  # Output: 10
+x, y = point  #### Unpacking
+print(x)  #### Output: 10
 
 ### Dictionaries and Key-Value Pairs
 
@@ -410,10 +410,10 @@ print(x)  # Output: 10
 #### Example
 
 person = {"name": "Kay", "age": 39, "city": "Erfurt"}
-print(person["name"])  # Output: Kay
-person["age"] = 39  # Update value
-person["job"] = "Developer"  # Add new key-value
-print(person)  # Output: {'name': 'Kay', 'age': 39, 'city': 'Erfurt', 'job': 'Developer'}
+print(person["name"])  #### Output: Kay
+person["age"] = 39  #### Update value
+person["job"] = "Developer"  #### Add new key-value
+print(person)  #### Output: {'name': 'Kay', 'age': 39, 'city': 'Erfurt', 'job': 'Developer'}
 
 ### Sets and Set Operations
 
@@ -431,8 +431,8 @@ Sets are unordered, unique collections.
 
 a = {1, 2, 3}
 b = {3, 4, 5}
-print(a.union(b))  # Output: {1, 2, 3, 4, 5}
-print(a.intersection(b))  # Output: {3}
+print(a.union(b))  #### Output: {1, 2, 3, 4, 5}
+print(a.intersection(b))  #### Output: {3}
 
 ### Exercise: Data Structures
 
@@ -495,7 +495,7 @@ with open("example.txt", "w") as file:
 
 with open("example.txt", "r") as file:
     for line in file:
-        print(line.strip())  # strip() removes newline characters
+        print(line.strip())  #### strip() removes newline characters
 
 ### Exercise: File Handling
 
@@ -541,7 +541,7 @@ class ClassName:
         self.param2 = param2
 
     def method_name(self):
-        # Method code
+        #### Method code
         pass
 
 #### Example
@@ -591,10 +591,10 @@ class ElectricCar(Car):
 #### Test
 
 car = Car("Toyota", "Corolla", 2020)
-car.display_info()  # Output: 2020 Toyota Corolla
+car.display_info()  #### Output: 2020 Toyota Corolla
 
 electric_car = ElectricCar("Tesla", "Model S", 2022, 100)
-electric_car.display_info()  # Output: 2022 Tesla Model S (Battery: 100 kWh)
+electric_car.display_info()  #### Output: 2022 Tesla Model S (Battery: 100 kWh)
 
 ## Advanced Python Concepts
 
@@ -606,9 +606,9 @@ electric_car.display_info()  # Output: 2022 Tesla Model S (Battery: 100 kWh)
 
 def decorator(func):
     def wrapper(*args, **kwargs):
-        # Code before function
+        #### Code before function
         result = func(*args, **kwargs)
-        # Code after function
+        #### Code after function
         return result
     return wrapper
 
@@ -678,7 +678,7 @@ for num in fibonacci(10):
 import pdb
 
 def divide(a, b):
-    pdb.set_trace()  # Start debugger
+    pdb.set_trace()  #### Start debugger
     return a / b
 
 divide(10, 2)
@@ -715,16 +715,16 @@ if __name__ == "__main__":
 
 #### Create a virtual environment
 
-`python -m venv myenv`       # Create
+`python -m venv myenv`       #### Create
 
 #### Activate a virtual environment
 
-`source myenv/bin/activate`  # Linux / Mac
-`myenv\Scripts\activate`     # Windows
+`source myenv/bin/activate`  #### Linux / Mac
+`myenv\Scripts\activate`     #### Windows
 
 #### Deactivate a virtual environment
 
-`deactivate`                # Deactivate
+`deactivate`                #### Deactivate
 
 #### Install packages
 
@@ -739,7 +739,7 @@ if __name__ == "__main__":
 import requests
 
 response = requests.get("https://www.example.com")
-print(response.text[:100])  # Print the first 100 characters.
+print(response.text[:100])  #### Print the first 100 characters.
 
 ## Practical Exercises and Projects
 
