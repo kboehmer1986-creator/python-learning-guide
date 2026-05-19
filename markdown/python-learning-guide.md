@@ -261,7 +261,7 @@ while i >= 1:
 ### Syntax
 
 def function_name(parameters):
-                  #### Code to execute
+                  # Code to execute
     return value  # Optional
 
 #### Example
